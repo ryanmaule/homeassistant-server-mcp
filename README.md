@@ -1,5 +1,6 @@
 # Home Assistant MCP Server
 
+[![smithery badge](https://smithery.ai/badge/homeassistant-server-mcp)](https://smithery.ai/server/homeassistant-server-mcp)
 A Model Context Protocol (MCP) server for interacting with Home Assistant. This server provides tools to control and monitor your Home Assistant devices through MCP-enabled applications.
 
 <a href="https://glama.ai/mcp/servers/io8m0yc5wq">
@@ -17,6 +18,15 @@ This project is part of the AI Model Context Protocol (MCP) ecosystem. For more 
 
 ## Installation
 
+### Installing via Smithery
+
+To install homeassistant-server-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/homeassistant-server-mcp):
+
+```bash
+npx -y @smithery/cli install homeassistant-server-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/yourusername/homeassistant-server-mcp.git
